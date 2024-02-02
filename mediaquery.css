@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@media(min-width: 450px) and (max-width: 767px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    html,body{
+        background-image: url(Capturar2.PNG);
+        background-position: center;
+    }
+    .oi{
+        text-align: left;
+        max-width: 100%;
+        height: auto;
+    
+    }
+    p{
+        text-align: left;
+        max-width: 100%;
+        height: auto;
+    }
+    .sociais{
+        width: 80%;
+        align-items: center;
+        padding-left: -8000px;
+    }
+    .ui{
+        display: block;
+        margin-left: auto;
+        margin-right: 460px;
+        width: 100px;
+        height: 50px;
+        margin-top: 20px;
+        background-color: darkblue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .menu nav a{
+        color: white;
+        padding-left: 600px;
+        padding: 20%;
+        text-decoration: none;
+    }
+    header {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: darkblue;
+}
